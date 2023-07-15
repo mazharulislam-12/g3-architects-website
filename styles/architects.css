@@ -35,7 +35,20 @@ nav li a{
 /* nav section end */
 
 /* banner section start */
-
+.banner-content{
+    max-width: 800px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-decription{
+    color: #727272;
+}
 /* banner section end */
 
 /* header end */
