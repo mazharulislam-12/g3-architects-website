@@ -7,7 +7,7 @@
   background: #ff900e;
     padding: 18px 22px;
     color: #FFF;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -61,10 +61,53 @@ nav li a {
 .banner-image img{
     width: 100%;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 /* banner end */
 /* header end */
+
+
+/* main section */
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* teams section start */
+.teams-continer{
+    display: flex;
+    align-items: center;
+}
+.teams-img-contianer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.quick-lisk{
+    color: #727272;
+    font-weight: 500;
+}
+.quck-lis1{
+    color: 131313;
+    font-weight: 700;
+}
+.quck-list2{
+    color: #FF900E;
+    font-weight: 700;
+}
+/* teams section end */
+
+
+
+
+
 
 
 /* responsive mobile device */
