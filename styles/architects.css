@@ -140,8 +140,13 @@ main {
     padding: 20px;
   }
   nav,
-  .teams-continer {
+  .teams-continer,
+  .facts-card-container
+   {
     flex-direction: column;
+  }
+  .facts-card-container{
+    gap: 20px;
   }
   .teams-img-contianer {
     grid-template-columns: 1fr;
